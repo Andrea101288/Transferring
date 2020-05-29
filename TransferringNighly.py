@@ -8,7 +8,7 @@ from settings import train_folder, test_TPFolder, global_passport_folder, global
 class Transferring():
 		
 	# getting mds document name
-	mds = input("Insert the MDS code! ex: MDS.2.0.PRT..ID.STD.012009.01\n")
+	mds = input("Insert the MDS code!\n")
 		
 	def get_original_excel_file_path(self):
 		# Getting the excel file with all the images with the path validation		
